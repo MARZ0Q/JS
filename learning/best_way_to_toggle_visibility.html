@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .hide{
+            visibility:hidden;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="">I know Magic!</h1>
+    <button id="button">Toggle me!</button>
+    <script> 
+        const button = document.querySelector('#button')
+        const h1 = document.querySelector('h1')
+
+        button.onclick= function(){
+            h1.classList.toggle('hide')
+        } 
+    </script>
+</body>
+</html>
